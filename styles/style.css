@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin:60px;
+    background-color:bisque
+}
+h1 {
+    color:black;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .navigation_button a {
+    display: inline-flex;
+    padding: 15px 25px;
+    margin: 10px;
+    background-color:rgb(61, 138, 220);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  .navigation_button a:hover {
+    background-color:  rgba(47, 69, 141, 0.979);
+  }

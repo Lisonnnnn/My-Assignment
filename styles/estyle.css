@@ -1,0 +1,60 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  h1, h2 {
+  
+    color: rgb(42, 30, 30);
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  th, td {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  th {
+    background-color:green;
+    color: white;
+  }
+  
+  button {
+    margin: 2px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .deleteClass{
+    background-color: red;
+    border-radius: 8px;
+
+  }
+  .editClass{
+    background-color: rgb(33, 83, 230);
+    border-radius: 8px;
+  }
+  
+  .deleteClass:hover{
+    background-color: rgb(77, 25, 25);
+  }
+
+  .editClass:hover{
+    background-color: rgb(8, 29, 99);
+  }
+  
+  #editForm input {
+    margin: 5px;
+    padding: 8px;
+  }
+  
